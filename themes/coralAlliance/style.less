@@ -26,7 +26,8 @@ body {background:#222; }
     .main p strong {text-transform:uppercase; font-weight:normal; color:@primaryColor; font-size:28px;}
 
 //Form Styles
-.gform_wrapper .left_label .gfield input[type="text"] {font-size:21px; padding: 10px 0; text-indent:15px; color:@primaryColor; border-radius:5px;}
+body .gform_wrapper {padding-top:15px; max-width:300px;}
+.gform_wrapper .left_label .gfield input[type="text"] {font-size:21px; padding: 10px 0; text-indent:10px; color:@primaryColor; border-radius:5px;}
 
 .gform_wrapper .gfield {position:relative; margin-bottom:5px;}
 body .gform_wrapper .left_label .gfield input.large {width:100%; max-width:300px;}
@@ -36,7 +37,7 @@ body .gform_wrapper .left_label .gfield input.large {width:100%; max-width:300px
     .gfield_required {display:none;}
 
 body .gform_wrapper .gform_footer.left_label {padding-left:0;}
-body .gform_wrapper .gform_footer.left_label input {background:@primaryColor; font-size:24px; text-transform:uppercase; padding:15px; border-radius:10px; border: 5px solid #444; transition: all .4s ease;}
+body .gform_wrapper .gform_footer.left_label input {background:@primaryColor; font-size:24px; text-transform:uppercase; padding:15px; border-radius:10px; border: 5px solid #444; transition: all .4s ease;float:right; position:relative; top:-88px; font-size:21px; width: 180px;padding:14px 0;} 
 body .gform_wrapper .gform_footer.left_label input:hover {background:#444;}
 
 //Signature Count
@@ -56,28 +57,27 @@ body .gform_wrapper .gform_footer.left_label input:hover {background:#444;}
 
     .footer span.icon-twitter:before {padding-right:0.1em;}
     .footer span.icon-facebook:before {padding-right:0;}
-
-
-/***************** 420px *****************/
-@media only screen and (min-width: 420px) { 
-
-
-
-
-}/*/mediaquery*/
-
-/***************** 600px *****************/
-@media only screen and (min-width: 600px) { 
-
-   
-
-
-}/*/mediaquery*/
  
  
  
 /***************** 760px *****************/
 @media only screen and (min-width: 760px) { 
+    body {background: url(images/bg.jpg) no-repeat 25% 50%; background-size:cover; background-attachment:fixed;}
+
+    .header {padding-top:10px; padding-bottom:20px;}
+    .main {padding-top:0; background:none; }
+
+    .mainContent {width:40%; max-width:300px;}
+        .mainContent h2 {font-size:52px; margin-bottom:5px;}
+        .mainContent .page {padding:15px 15px 1px; margin-bottom:15px; background:111; background:rgba(0,0,0,0.4); border-radius:5px;}
+        .mainContent p {margin-top:0;}
+        
+
+//Form Styles
+.gform_wrapper .left_label .gfield input[type="text"] {border:5px solid #111; border:5px solid rgba(0,0,0,0.4);background-clip: padding-box; border-radius:10px; padding:10px 0;}
+body .gform_wrapper .left_label .gfield_label {top:20px;}
+body .gform_wrapper .gform_footer.left_label {padding-top:0;}
+body .gform_wrapper .gform_footer.left_label input {border-color: rgba(0,0,0,0.4);background-clip: padding-box;top:-76px;}
  
 
 
