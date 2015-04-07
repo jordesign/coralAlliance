@@ -1955,11 +1955,12 @@ body .gform_wrapper .left_label .gfield_label {
   top: 15px;
   left: 15px;
   font-size: 21px;
-  color: #ccc;
+  color: #aaa;
   width: 200px;
   float: none;
   opacity: 1;
   transition: opacity .2s ease;
+  font-weight: normal;
 }
 .gform_wrapper .left_label .focused .gfield_label {
   opacity: 0;
@@ -2002,7 +2003,7 @@ body .gform_wrapper .gform_footer.left_label input:hover {
 }
 .signatureLabel {
   position: absolute;
-  top: 60px;
+  top: 55px;
   left: 0;
   font-size: 36px;
 }
