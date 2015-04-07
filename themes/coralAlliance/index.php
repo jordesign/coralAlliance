@@ -47,7 +47,7 @@
             $form_percentage = $form_total_count/100 ;
             ?>
 
-        <div class="signatureBar" data-signPerc="<?php echo $form_percentage; ?>"></div>
+        <div class="signatureBar" id="ocean" data-signPerc="<?php echo $form_percentage; ?>"></div>
         <div class="signatureLabel"><?php echo $form_total_count; ?> <span>of 10,000 signatures</span></div>
         
     </div>

@@ -2155,3 +2155,17 @@ body .gform_wrapper .gform_footer.left_label input:hover {
   }
 }
 /*/mediaquery*/
+/***************** 960px *****************/
+@media only screen and (min-width: 960px) {
+  .main {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/***************** 1200px *****************/
+@media only screen and (min-width: 1200px) {
+  body {
+    background-position: 25% 35%;
+  }
+}

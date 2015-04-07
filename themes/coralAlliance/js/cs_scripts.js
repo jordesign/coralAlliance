@@ -19,6 +19,8 @@ else {
 	petitionHeight = 100 - petitionPercent
    $('.signatureBar').css('top', petitionHeight + '%' );
    $('.signatureLabel').css('top', petitionHeight + '%' );
+
+   
 }
 
    		
