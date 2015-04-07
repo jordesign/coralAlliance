@@ -28,5 +28,6 @@
 <div class="header">
     <div class="logo">
         <h1><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="The Coral Alliance: Protecting our Reef Together">
-    </h1>
+         </h1>
+    </div>
 </div>

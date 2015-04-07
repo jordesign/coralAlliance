@@ -13,7 +13,26 @@ Version: 1.0
 @import "less/base.less";  
 
 * {box-sizing:border-box;} 
+img {max-width:100%; height:auto !important;}
 
+body {background:#222; }
+.header {padding:10px;}
+    .header h1 {max-width:300px; margin:10px auto 5px;}
+
+.main { background: url(images/header.jpg) no-repeat 0 0; background-size: contain; padding: 43% 15px 10px 15px;}
+    .main h2 { text-transform:uppercase; font-weight:normal; font-size:48px;  margin:0 0 10px 0;}
+    .main h2 strong {color:@primaryColor; font-weight:normal;}
+    .main p strong {text-transform:uppercase; font-weight:normal; color:@primaryColor; font-size:24px;}
+
+//Form Styles
+.gform_wrapper .left_label .gfield input[type="text"] {font-size:21px; padding: 10px 0; text-indent:15px; color:@primaryColor; border-radius:5px;}
+
+.gform_wrapper .gfield {position:relative; margin-bottom:5px;}
+.gform_wrapper .left_label .gfield input.large {width:100%; max-width:300px;}
+    .gform_wrapper .left_label .gfield_label {position:absolute; top:15px; left:15px; font-size:21px; color:#ccc; width:200px; float:none;opacity:1; transition: opacity .2s ease;}
+    .gform_wrapper .left_label .focused .gfield_label {opacity:0;}
+
+    .gfield_required {display:none;}
 
 
 
