@@ -36,8 +36,20 @@
 <!-- SIGNATURE COUNT section displays a progression bar representing the total number of signatures -->
 <div class="signatureCount">
     <div class="signatureBarHolder">
-        <div class="signatureBar" data-signPerc="68"></div>
-        <div class="signatureLabel">6810 <span>of 10,000 signatures</span></div>
+
+        <?php //Calculate the petition progress
+            $formid = 1;
+            $form_count = RGFormsModel::get_form_counts($formid);
+            $form_total_count = $form_count['total'];
+
+            //let's add some entries for the sake of the demo...
+            $form_total_count = $form_total_count + 6438;
+            $form_percentage = $form_total_count/100 ;
+            ?>
+
+        <div class="signatureBar" data-signPerc="<?php echo $form_percentage; ?>"></div>
+        <div class="signatureLabel"><?php echo $form_total_count; ?> <span>of 10,000 signatures</span></div>
+        
     </div>
 </div>
 
