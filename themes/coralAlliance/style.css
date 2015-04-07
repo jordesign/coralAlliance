@@ -659,8 +659,8 @@ ul.menu-secondary li a {
 }
 @font-face {
   font-family: 'entypo';
-  src: url('../fonts/entypo.eot?59575301');
-  src: url('../fonts/entypo.eot?59575301#iefix') format('embedded-opentype'), url('../fonts/entypo.woff?59575301') format('woff'), url('../fonts/entypo.ttf?59575301') format('truetype'), url('../fonts/entypo.svg?59575301#entypo') format('svg');
+  src: url('fonts/entypo.eot?59575301');
+  src: url('fonts/entypo.eot?59575301#iefix') format('embedded-opentype'), url('fonts/entypo.woff?59575301') format('woff'), url('fonts/entypo.ttf?59575301') format('truetype'), url('fonts/entypo.svg?59575301#entypo') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1917,7 +1917,7 @@ body {
 .main {
   background: url(images/header.jpg) no-repeat 0 0;
   background-size: contain;
-  padding: 43% 15px 10px 15px;
+  padding: 43% 15px 30px 15px;
 }
 .main h2 {
   text-transform: uppercase;
@@ -1946,11 +1946,11 @@ body {
   position: relative;
   margin-bottom: 5px;
 }
-.gform_wrapper .left_label .gfield input.large {
+body .gform_wrapper .left_label .gfield input.large {
   width: 100%;
   max-width: 300px;
 }
-.gform_wrapper .left_label .gfield_label {
+body .gform_wrapper .left_label .gfield_label {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -1966,6 +1966,68 @@ body {
 }
 .gfield_required {
   display: none;
+}
+body .gform_wrapper .gform_footer.left_label {
+  padding-left: 0;
+}
+body .gform_wrapper .gform_footer.left_label input {
+  background: #ff8b00;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 10px;
+  border: 5px solid #111;
+  transition: all .4s ease;
+}
+body .gform_wrapper .gform_footer.left_label input:hover {
+  background: #111;
+}
+.signatureCount {
+  background: #ff8b00;
+  padding: 15px 15px 55px 15px;
+}
+.signatureBarHolder {
+  height: 40px;
+  width: 100%;
+  background: #111;
+  position: relative;
+}
+.signatureBar {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 69%;
+  bottom: 5px;
+  background: #333;
+}
+.signatureLabel {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  font-size: 36px;
+}
+.signatureLabel span {
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 70px;
+  opacity: 0.6;
+  line-height: 18px;
+  position: relative;
+  top: -5px;
+}
+.footer {
+  padding: 15px 15px 30px 15px;
+  background: #111;
+}
+.footer .social {
+  text-align: center;
+}
+.footer .social h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #fff;
+  font-size: 24px;
 }
 /***************** 420px *****************/
 /*/mediaquery*/

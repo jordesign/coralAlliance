@@ -12,8 +12,8 @@
 <div class="footer">
     <div class="social">
         <h2>Spread the Word</h2>
-        <a href="#" class="twitter">Share on Twitter</a>
-        <a href="#" class="facebook">Share on Facebook</a>
+        <a href="#" class="twitter"><span class="icon-facebook"></span><em>Share on Twitter</em></a>
+        <a href="#" class="facebook"><span class="icon-twitter"></span><em>Share on Facebook</em></a>
     </div>
 </div>
     
