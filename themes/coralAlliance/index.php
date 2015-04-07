@@ -11,13 +11,6 @@
 
 <?php get_header(); ?>
 
-<!-- HEADER SECTION contains only the logo -->
-<div class="header">
-    <div class="logo">
-        <h1><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="The Coral Alliance: Protecting our Reef Together">
-    </h1>
-</div>
-
 
 <!-- MAIN SECTION containing call to action and form -->
 <div class="main">
@@ -48,14 +41,7 @@
     </div>
 </div>
 
-<!-- FOOTER SECTION contains the social sharing links -->
-<div class="footer">
-    <div class="social">
-        <h2>Spread the Word</h2>
-        <a href="#" class="twitter">Share on Twitter</a>
-        <a href="#" class="facebook">Share on Facebook</a>
-    </div>
-</div>
+
 
 
 <?php get_footer(); ?>
