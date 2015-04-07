@@ -74,11 +74,19 @@ body .gform_wrapper .gform_footer.left_label input:hover {background:#444;}
         
 
 //Form Styles
+body .gform_wrapper {padding-top:0;}
 .gform_wrapper .left_label .gfield input[type="text"] {border:5px solid #111; border:5px solid rgba(0,0,0,0.4);background-clip: padding-box; border-radius:10px; padding:10px 0;}
 body .gform_wrapper .left_label .gfield_label {top:20px;}
 body .gform_wrapper .gform_footer.left_label {padding-top:0;}
 body .gform_wrapper .gform_footer.left_label input {border-color: rgba(0,0,0,0.4);background-clip: padding-box;top:-76px;}
  
+//Petition Progress
+.signatureCount {position:fixed; top:0; right:0; bottom:0; width: 65px; background:#111; background:rgba(0,0,0,0.7);}
+    .signatureCount .signatureBarHolder {height:100%;position:static;background:none;}
+    .signatureCount .signatureBar {background:url(images/bar.png) repeat-y 0 0; position:absolute; bottom:0; left:0; right:0;}
+
+.signatureLabel {position:absolute; left:auto; right:70px; width:208px; height:60px; background:url(images/marker.png) no-repeat 0 0;margin-top:-30px; padding: 17px 0 0 12px;}
+.signatureLabel span {font-size:16px;}
 
 
 }/*/mediaquery*/

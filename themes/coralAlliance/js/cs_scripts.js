@@ -11,12 +11,14 @@ $('.gform_wrapper input').blur(function(){
 });
 
 //Calculate the width/height of the progress bar
-petitionPercent = $('.signatureBar').attr('data-signperc') + '%';
+petitionPercent = $('.signatureBar').attr('data-signperc');
 if ($(window).width() < 720) {
-   $('.signatureBar').css('width', petitionPercent );
+   $('.signatureBar').css('width', petitionPercent + '%' );
 }
 else {
-   
+	petitionHeight = 100 - petitionPercent
+   $('.signatureBar').css('top', petitionHeight + '%' );
+   $('.signatureLabel').css('top', petitionHeight + '%' );
 }
 
    		
