@@ -1933,7 +1933,7 @@ body {
   text-transform: uppercase;
   font-weight: normal;
   color: #ff8b00;
-  font-size: 24px;
+  font-size: 28px;
 }
 .gform_wrapper .left_label .gfield input[type="text"] {
   font-size: 21px;
@@ -1977,11 +1977,11 @@ body .gform_wrapper .gform_footer.left_label input {
   text-transform: uppercase;
   padding: 15px;
   border-radius: 10px;
-  border: 5px solid #111;
+  border: 5px solid #444;
   transition: all .4s ease;
 }
 body .gform_wrapper .gform_footer.left_label input:hover {
-  background: #111;
+  background: #444;
 }
 .signatureCount {
   background: #ff8b00;
@@ -2018,7 +2018,7 @@ body .gform_wrapper .gform_footer.left_label input:hover {
   top: -5px;
 }
 .footer {
-  padding: 15px 15px 30px 15px;
+  padding: 15px 15px 40px 15px;
   background: #111;
 }
 .footer .social {
@@ -2029,6 +2029,32 @@ body .gform_wrapper .gform_footer.left_label input:hover {
   font-weight: normal;
   color: #fff;
   font-size: 24px;
+}
+.footer .social a {
+  font-size: 36px;
+  width: 72px;
+  border: 5px solid #333;
+  border-radius: 50%;
+  height: 72px;
+  margin: 0 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 56px;
+  background: #ff8b00;
+  color: #fff;
+  transition: background .4s ease;
+}
+.footer .social a em {
+  display: none;
+}
+.footer .social a:hover {
+  background: #333;
+}
+.footer span.icon-twitter:before {
+  padding-right: 0.1em;
+}
+.footer span.icon-facebook:before {
+  padding-right: 0;
 }
 /***************** 420px *****************/
 /*/mediaquery*/
