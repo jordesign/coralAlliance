@@ -9,6 +9,11 @@ $('.gform_wrapper input').blur(function(){
 		$(this).parents('.gfield').removeClass('focused');
 	}
 });
+$('.gform_wrapper input').each(function(){
+	if ( $(this).val() != '' ){
+		$(this).parents('.gfield').addClass('focused');
+	}
+});
 
 //Calculate the width/height of the progress bar
 petitionPercent = $('.signatureBar').attr('data-signperc');

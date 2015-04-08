@@ -27,7 +27,7 @@ body {background:#222; }
 
 //Form Styles
 body .gform_wrapper {padding-top:15px; max-width:300px;}
-.gform_wrapper .left_label .gfield input[type="text"] {font-size:21px; padding: 10px 0; text-indent:10px; color:@primaryColor; border-radius:5px;}
+.gform_wrapper .left_label .gfield input[type="text"] {font-size:21px; padding: 10px 0 !important; text-indent:10px; color:@primaryColor; border-radius:5px;}
 
 .gform_wrapper .gfield {position:relative; margin-bottom:5px;}
 body .gform_wrapper .left_label .gfield input.large {width:100%; max-width:300px;}
@@ -39,6 +39,11 @@ body .gform_wrapper .left_label .gfield input.large {width:100%; max-width:300px
 body .gform_wrapper .gform_footer.left_label {padding-left:0;}
 body .gform_wrapper .gform_footer.left_label input {background:@primaryColor; font-size:24px; text-transform:uppercase; padding:15px; border-radius:10px; border: 5px solid #444; transition: all .4s ease;float:right; position:relative; top:-88px; font-size:21px; width: 180px;padding:14px 0;} 
 body .gform_wrapper .gform_footer.left_label input:hover {background:#444;}
+
+//Form Validation
+body .gform_wrapper div.validation_error {color:#fff; font-weight:normal; font-size:18px; padding:10px; background:red;}
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required {padding:0 !important; background:none; border:none;}
+body .gform_wrapper .top_label .gfield_description.validation_message, body .gform_wrapper .gfield_description.validation_message {color:#fff; padding:5px !important; margin:0 !important; border-radius:3px;background:red;}
 
 //Signature Count
 .signatureCount {background:@primaryColor; padding:15px 15px 55px 15px;}

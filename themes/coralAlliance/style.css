@@ -1941,7 +1941,7 @@ body .gform_wrapper {
 }
 .gform_wrapper .left_label .gfield input[type="text"] {
   font-size: 21px;
-  padding: 10px 0;
+  padding: 10px 0 !important;
   text-indent: 10px;
   color: #ff8b00;
   border-radius: 5px;
@@ -1992,6 +1992,26 @@ body .gform_wrapper .gform_footer.left_label input {
 }
 body .gform_wrapper .gform_footer.left_label input:hover {
   background: #444;
+}
+body .gform_wrapper div.validation_error {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 10px;
+  background: red;
+}
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
+  padding: 0 !important;
+  background: none;
+  border: none;
+}
+body .gform_wrapper .top_label .gfield_description.validation_message,
+body .gform_wrapper .gfield_description.validation_message {
+  color: #fff;
+  padding: 5px !important;
+  margin: 0 !important;
+  border-radius: 3px;
+  background: red;
 }
 .signatureCount {
   background: #ff8b00;
