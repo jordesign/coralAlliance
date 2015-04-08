@@ -177,7 +177,7 @@ footer {
 }
 body {
   color: #ffffff;
-  font-family: 'Oswald', 'Helvetica' sans-serif;
+  font-family: Oswald, 'Oswald', 'Helvetica', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -186,7 +186,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', 'Helvetica' sans-serif;
+  font-family: Oswald, 'Oswald', 'Helvetica', sans-serif;
   font-weight: bold;
 }
 h1 {
