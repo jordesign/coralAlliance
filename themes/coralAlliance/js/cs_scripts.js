@@ -12,7 +12,7 @@ $('.gform_wrapper input').blur(function(){
 
 //Calculate the width/height of the progress bar
 petitionPercent = $('.signatureBar').attr('data-signperc');
-if ($(window).width() < 720) {
+if ($(window).width() < 760) {
    $('.signatureBar').css('width', petitionPercent + '%' );
 }
 else {
@@ -20,7 +20,7 @@ else {
    $('.signatureBar').css('top', petitionHeight + '%' );
    $('.signatureLabel').css('top', petitionHeight + '%' );
 
-   
+
 }
 
    		

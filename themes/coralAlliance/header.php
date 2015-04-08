@@ -23,7 +23,16 @@
     <!--[if lt IE 9 ]>  <script src="<?php bloginfo('stylesheet_directory'); ?>/js/respond.min-ck.js"></script> <![endif]-->
 </head>
 <body <?php body_class(); ?>>
+<script language="javascript" type="text/javascript">
+    <!--
+    function popitup(url) {
+        newwindow=window.open(url,'name','height=300,width=500');
+        if (window.focus) {newwindow.focus()}
+        return false;
+    }
 
+// -->
+</script> 
 <!-- HEADER SECTION contains only the logo -->
 <div class="header">
     <div class="logo">

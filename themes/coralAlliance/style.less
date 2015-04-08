@@ -51,12 +51,14 @@ body .gform_wrapper .gform_footer.left_label input:hover {background:#444;}
 .footer {padding: 15px 15px 40px 15px; background:#111;}
     .footer .social {text-align:center;}
     .footer .social h2 {text-transform:uppercase; font-weight:normal; color:#fff; font-size:24px;}
-    .footer .social a {font-size:36px; width:72px; border: 5px solid #333; border-radius:50%; height:72px; margin:0 5px; display:inline-block; text-align:center;line-height:56px; background:@primaryColor; color:#fff; transition: background .4s ease;}
-    .footer .social a em {display:none;}
-    .footer .social a:hover {background:#333;}
+     .social a {font-size:36px; width:72px; border: 5px solid #333; border-radius:50%; height:72px; margin:0 5px; display:inline-block; text-align:center;line-height:56px; background:@primaryColor; color:#fff; transition: background .4s ease;}
+     .social a em {display:none;}
+     .social a:hover {background:#333;}
 
-    .footer span.icon-twitter:before {padding-right:0.1em;}
-    .footer span.icon-facebook:before {padding-right:0;}
+     span.icon-twitter:before {padding-right:0.1em;}
+     span.icon-facebook:before {padding-right:0;}
+
+.petitionForm .social {text-align:center;}
  
  
  
@@ -81,13 +83,20 @@ body .gform_wrapper .gform_footer.left_label {padding-top:0;}
 body .gform_wrapper .gform_footer.left_label input {border-color: rgba(0,0,0,0.4);background-clip: padding-box;top:-76px;}
  
 //Petition Progress
-.signatureCount {position:fixed; top:0; right:0; bottom:0; width: 65px; background:#111; background:rgba(0,0,0,0.7);}
+.signatureCount {position:fixed; top:0; right:0; bottom:44px; width: 65px; background:#111; background:rgba(0,0,0,0.7);}
     .signatureCount .signatureBarHolder {height:100%;position:static;background:none;}
     .signatureCount .signatureBar {background:url(images/bar.png) repeat-y 0 0; position:absolute; bottom:0; left:0; right:0;}
 
 .signatureLabel {position:absolute; left:auto; right:70px; width:208px; height:60px; background:url(images/marker.png) no-repeat 0 0;margin-top:-30px; padding: 17px 0 0 12px;}
 .signatureLabel span {font-size:16px;}
 
+.footer {position:fixed; bottom:0; left:0; right:0; height:44px;padding: 5px 10px 0 0;}
+    .footer .social {float:right;}
+    .footer .social h2 {display:inline-block;margin: 0 10px 0 0;}
+    .footer .social a {width:32px; height:32px;line-height:28px;font-size:18px;border:none;}
+    .footer span.icon-twitter:before {padding-left:0.2em;}
+
+.petitionForm .social a {border-color:rgba(0,0,0,0.4);background-clip: padding-box;}
 
 
 }/*/mediaquery*/

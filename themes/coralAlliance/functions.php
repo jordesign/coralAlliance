@@ -35,7 +35,7 @@ add_action('wp_enqueue_scripts', 'coralAlliance_load_scripts');
  	======================================================================================================================== */   
     
         // Add support - remove comments to add background and header support
-        //add_theme_support('post-thumbnails');
+        add_theme_support('post-thumbnails');
         //add_theme_support('menus');
         //add_theme_support( 'html5', array( 'search-form' ) );
         
